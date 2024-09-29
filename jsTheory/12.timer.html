@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      setTimeout(function () {
+        console.log("Hello after 2 seconds");
+      }, 10000);
+      setInterval(function () {
+        //in this case the parameter is another function
+        console.log("Hello every 2 seconds");
+      }, 2000);
+    </script>
+  </body>
+</html>
